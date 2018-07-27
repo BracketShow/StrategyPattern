@@ -18,7 +18,7 @@ namespace StrategyPattern
             Console.WriteLine($"Total si acheté dans un magasin au Québec (sans Strategy): {total}");
 
             total = invoice.GetInvoiceTotal(PurchaseMethod.InStore, Province.Ontario);
-            Console.WriteLine($"Total si acheté dans un magasin au Québec (sans Strategy): {total}");
+            Console.WriteLine($"Total si acheté dans un magasin en Ontario (sans Strategy): {total}");
 
             #region With Strategy Pattern
 
